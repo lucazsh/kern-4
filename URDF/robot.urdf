@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<robot name="robot_arm">
+
+  <!-- World Link (fixed base) -->
+  <link name="world"/>
+
+  <!-- CASE_1 Link -->
+  <link name="CASE_1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_1.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_1.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="2.491326" ixy="0.0" ixz="0.0" iyy="2.491326" iyz="0.0" izz="2.207713"/>
+    </inertial>
+  </link>
+
+  <!-- Joint connecting world to CASE_1 -->
+  <joint name="CASE_1_joint" type="fixed">
+    <parent link="world"/>
+    <child link="CASE_1"/>
+    <origin xyz="0.027805 1.532023 1.825173" rpy="-0.000000 -0.000000 0.000000"/>
+  </joint>
+
+  <!-- CASE_2 Link -->
+  <link name="CASE_2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_2.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_2.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="2.586780" ixy="0.0" ixz="0.0" iyy="2.028938" iyz="0.0" izz="2.289770"/>
+    </inertial>
+  </link>
+
+  <!-- Joint connecting CASE_1 to CASE_2 -->
+  <joint name="CASE_2_joint" type="revolute">
+    <parent link="CASE_1"/>
+    <child link="CASE_2"/>
+    <origin xyz="-0.035675 0.075565 4.329944" rpy="1.570796 -1.570796 0.000000"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- CASE_3 Link -->
+  <link name="CASE_3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_3.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_3.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="7.625283" ixy="0.0" ixz="0.0" iyy="6.927748" iyz="0.0" izz="2.432560"/>
+    </inertial>
+  </link>
+
+  <!-- Joint connecting CASE_2 to CASE_3 -->
+  <joint name="CASE_3_joint" type="revolute">
+    <parent link="CASE_2"/>
+    <child link="CASE_3"/>
+    <origin xyz="3.816296 -0.124469 -3.085722" rpy="-3.141593 0.000000 -0.000385"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- CASE_4 Link -->
+  <link name="CASE_4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_4.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_4.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="9.192018" ixy="0.0" ixz="0.0" iyy="8.492935" iyz="0.0" izz="2.431012"/>
+    </inertial>
+  </link>
+
+  <!-- Joint connecting CASE_3 to CASE_4 -->
+  <joint name="CASE_4_joint" type="revolute">
+    <parent link="CASE_3"/>
+    <child link="CASE_4"/>
+    <origin xyz="10.193694 -0.015917 0.774402" rpy="3.141593 0.000000 -0.000385"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- CASE_5 Link -->
+  <link name="CASE_5">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_5.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/CASE_5.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="2.379975" ixy="0.0" ixz="0.0" iyy="2.082965" iyz="0.0" izz="2.028938"/>
+    </inertial>
+  </link>
+
+  <!-- Joint connecting CASE_4 to CASE_5 -->
+  <joint name="CASE_5_joint" type="revolute">
+    <parent link="CASE_4"/>
+    <child link="CASE_5"/>
+    <origin xyz="12.196648 -0.016086 0.783803" rpy="3.141593 0.000000 0.000000"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- GRIPPER_2 Link -->
+  <link name="GRIPPER_2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/GRIPPER_2.stl"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/GRIPPER_2.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="1.258031" ixy="0.0" ixz="0.0" iyy="1.258031" iyz="0.0" izz="1.731927"/>
+    </inertial>
+  </link>
+
+  <!-- Joint connecting CASE_5 to GRIPPER_2 -->
+  <joint name="GRIPPER_2_joint" type="fixed">
+    <parent link="CASE_5"/>
+    <child link="GRIPPER_2"/>
+    <origin xyz="3.972786 -0.036814 3.769576" rpy="3.141593 -1.570796 0.000000"/>
+  </joint>
+
+</robot>
