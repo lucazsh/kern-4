@@ -1,7 +1,4 @@
-<div style="text-align: center">
-    <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/lucazsh/kern-4/blob/main/3D%20models/logo/kern-4.png?raw=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/lucazsh/kern-4/blob/main/3D%20models/logo/kern-4.png?raw=true">
-    </picture>
-</div>
+<p align="center">
+  <img src="https://github.com/lucazsh/kern-4/blob/main/3D%20models/logo/kern-4.png?raw=true" width="300">
+</p>
 
