@@ -3,7 +3,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/logo/kern-4_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/logo/kern-4_light.png">
-    <img alt="kern-4" src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/logo/kern-4.png" width="690" height="122" style="max-width: 100%;">
+    <img alt="kern-4" src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/logo/kern-4.png" width="690" height="122" style="max-width: 60%;">
   </picture>
   <br/>
   <br/>
@@ -23,5 +23,6 @@
 </p>
 
 ---
+
 
 
