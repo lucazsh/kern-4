@@ -49,7 +49,7 @@ pip install pyserial numpy pybullet
 
 ## Real World (kern-4)
 
-<table align="center">
+<table>
 <tr>
 <td align="center">
 <img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/rw.png" height="300"><br>
@@ -68,6 +68,7 @@ pip install pyserial numpy pybullet
 ## Screenshots
 ![kern-4 screenshot](https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/screenshot-1.png)
 *kern-4 interface along with the Pybullet training window (Dark Mode)*
+
 
 
 
