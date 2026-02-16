@@ -22,9 +22,10 @@
   <img src="https://img.shields.io/badge/platform-macOS-black?logo=apple">
 </p>
 <br/>
-kern-4 is a 4DOF robot, including a gripper, with its URDF model and custom software for control via a terminal-based interface (TUI).
+kern-4 is a 4DOF 3D-printed robot, including a gripper, with its URDF model and custom software for control via a terminal-based interface (TUI).
 
 ---
+
 
 
 
