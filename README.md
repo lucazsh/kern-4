@@ -26,9 +26,12 @@ kern-4 is a 4DOF 3D-printed robot, including a gripper, with its URDF model and 
 
 ---
 
-## Screenshots
-![kern-4 screenshot](https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/screenshot-1.png)
-*kern-4 interface along with the Pybullet training window (Dark Mode)*
+<p align="right">
+<img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/robot.png" width="400">
+
+</p>
+
+---
 
 ## Installation
 
@@ -43,6 +46,10 @@ Install dependencies:
 pip install pyserial numpy pybullet
 ```
 *(Note: On Windows, you also need `windows-curses` to use curses)*
+
+## Screenshots
+![kern-4 screenshot](https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/screenshot-1.png)
+*kern-4 interface along with the Pybullet training window (Dark Mode)*
 
 
 
