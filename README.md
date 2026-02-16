@@ -1,8 +1,8 @@
 <br/>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/logo/kern-4_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/logo/kern-4_light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/kern-4_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/kern-4_light.svg">
     <img alt="kern-4" src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/logo/kern-4.png" width="690" height="122" style="max-width: 90%;">
   </picture>
   <br/>
@@ -26,6 +26,10 @@ kern-4 is a 4DOF 3D-printed robot, including a gripper, with its URDF model and 
 
 ---
 
+
+---
+
+## Screenshots
 
 
 
