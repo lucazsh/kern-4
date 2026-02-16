@@ -48,14 +48,16 @@ pip install pyserial numpy pybullet
 *(Note: On Windows, you also need `windows-curses` to use curses)*
 
 ## Real World (kern-4)
-<p>
-<img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/rw.png" height="400">
-<img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/rw_.png" height="400">
-</p>
+
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 5px;">
+  <img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/rw.png" height="400">
+  <img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/rw_.png" height="400">
+</div>
 
 ## Screenshots
 ![kern-4 screenshot](https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/screenshot-1.png)
 *kern-4 interface along with the Pybullet training window (Dark Mode)*
+
 
 
 
