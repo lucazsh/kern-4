@@ -40,7 +40,6 @@ The entire design, which I consider modular, was created from scratch (starting 
 
 <br/>
 <br/>
-<br/>
 
 
 
@@ -89,6 +88,7 @@ pip install pyserial numpy pybullet
 <br/>
 ![kern-4 screenshot-2](https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/screenshot-2.png)
 *kern-4 interface (Gray & Ochre theme)*
+
 
 
 
