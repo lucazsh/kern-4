@@ -25,11 +25,26 @@
 kern-4 is a 4DOF 3D-printed robot, including a gripper, with its URDF model and custom software for control via a terminal-based interface (TUI).
 
 ---
+<img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/robot.png" align="right" height="350">
+
+kern-4 is both the name of the robot and of the software that operates it. The robot uses a reducer called Planetary Drive ([more info](#planetary-drive)), to provide the actuator, in this case stepper motors, with high torque.
+
+The entire design, which I consider modular, was created from scratch (starting with paper and pen) in [Fusion 360](https://www.autodesk.com/products/fusion-360/overview), using only the [GF Gear Generator](https://apps.autodesk.com/FUSION/en/Detail/Index?id=1236778940008086660) add-on, solely to generate the components needed for the gearbox.
+
+<br/>
+
+> *"The creation of something new is not accomplished by intellect alone."*
+>
+> **—Carl G. Jung, Memories, Dreams, Reflections**
 
 
-<p align="right">
-  <img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/robot.png" height="400">
-</p>
+<br/>
+<br/>
+<br/>
+
+
+
+
 
 ---
 
@@ -74,6 +89,7 @@ pip install pyserial numpy pybullet
 <br/>
 ![kern-4 screenshot-2](https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/screenshot-2.png)
 *kern-4 interface (Gray & Ochre theme)*
+
 
 
 
