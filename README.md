@@ -23,7 +23,7 @@
 </p>
 <br/>
 kern-4 is a 4DOF 3D-printed robot, including a gripper, with its URDF model and custom software for control via a terminal-based interface (TUI).
- 
+
 ---
 <img src="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/robot.png" align="right" height="350">
  
