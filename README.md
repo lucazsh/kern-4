@@ -1,4 +1,4 @@
-<br/> 
+<br/>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucazsh/kern-4/main/3D%20models/img/kern-4_dark.svg">
